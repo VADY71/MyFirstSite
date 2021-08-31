@@ -1,0 +1,135 @@
+body{
+    margin:0;
+    text-align: center;
+    font-family: 'Azeret Mono', monospace;
+}
+
+h1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 5.625rem;
+    margin: 0;
+    padding-top: 350px;
+}
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    color: #5E454B;
+}
+
+h3{
+    font-family: 'Bebas Neue', cursive;
+    color:#5E454B;
+}
+
+.student{
+    font-weight: normal;
+}
+
+hr{
+    width: 4%;
+    border: dotted 7.5px;
+    border-bottom: none;
+    color:#968C83;
+    margin: 100px auto;
+}
+
+a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    color:#28282b;
+    margin: 10px 20px;
+}
+
+a:hover{
+    color: white;
+}
+
+/******************** TOP-CONTAINER ********************/
+.top-container{
+    background-color: #FAF1E6;
+    position: relative;
+    color: #968C83;
+    line-height: 2;
+}    
+
+.cloud-top{
+    position: absolute;
+    right: 30%;
+    top: 50px;
+}
+
+.cloud-bottom{
+    position: absolute;
+    top: 40%;
+    left: 25%;    
+}
+
+/******************** MIDDLE-CONTAINER ********************/
+.middle-container{
+    background-color: #FDFAF6;
+    padding: 100px 0;
+}
+
+.skill-row{
+    width: 50%;
+    text-align: left;
+    margin: 120px auto;
+    line-height: 3;
+}
+
+.dental{
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+
+.webdev{
+    width: 25%;
+    float: right;
+    padding-left: 30px;
+}
+
+.btn {
+    background: #EBEBEB;
+    background-image: -webkit-linear-gradient(top, #EBEBEB, #797A7E);
+    background-image: -moz-linear-gradient(top, #EBEBEB, #797A7E);
+    background-image: -ms-linear-gradient(top, #EBEBEB, #797A7E);
+    background-image: -o-linear-gradient(top, #EBEBEB, #797A7E);
+    background-image: -webkit-gradient(to bottom, #EBEBEB, #797A7E);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Azeret Mono', monospace;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    text-shadow: 0 0 40px #9b9b9b;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 30px 0 0;
+ }
+ 
+ .btn:hover {
+    background: #797A7E;
+    border: solid #FFFFFF 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+/******************** BOTTOM-CONTAINER ********************/
+.bottom-container{
+    background-color: #797A7E;
+    padding: 20px;
+    line-height: 2.5;
+}
+
+.copyright{
+    color: white;
+    margin: 0 auto;
+}
